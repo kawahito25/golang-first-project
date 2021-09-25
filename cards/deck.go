@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"strings"
-	"os"
 	"math/rand"
+	"os"
+	"strings"
 	"time"
 )
 
@@ -24,7 +24,6 @@ func newDeck() deck { // コストラクタ的なものか
 	}
 
 	return cards
-
 }
 
 func (d deck) print() {
